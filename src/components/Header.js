@@ -1,10 +1,6 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import FormControl from 'react-bootstrap/FormControl';
-import SearchBar from './SearchBar';
 
 class Header extends React.Component {
     render (){
@@ -20,3 +16,5 @@ class Header extends React.Component {
         )
     }
 }
+
+export default Header;

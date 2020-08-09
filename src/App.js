@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header.js';
 import MovieList from './components/MovieList.js';
-import SearchBar from './SearchBar.js'
 
 const movies = [
 	{
@@ -25,7 +24,6 @@ class App extends React.Component {
 		return (
 			<div>
 				<Header />
-        <SearchBar />
 				<MovieList moviesProps={movies} />
 			</div>
 		)
