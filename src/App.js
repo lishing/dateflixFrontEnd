@@ -5,7 +5,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import MovieList from './components/MovieList.js';
 import CreateProfile from './components/CreateProfile';
 // import LogIn from './components/LogIn';
-// import SignUp from './components/SignUp';
 
 const movies = [
 	{
@@ -36,12 +35,11 @@ class App extends React.Component {
 				{/* <Header/> */}
 				{/* <MovieList moviesProps={movies}/> */}
 				{/* <MovieInfo/> */}
-				{/* <logIn/> */}
-				<LogIn onSubmit ={fields => this.onSubmit(fields)}/>
-			<p>{
+				<CreateProfile/>
+				{/* <LogIn onSubmit ={fields => this.onSubmit(fields)}/> */}
+			{/* <p>{
 			JSON.stringify(this.state.fields, null, 2)}
-			</p>
-				{/* <SignUp/> */}
+			</p> */}
 			</div>
 		)
 	}
