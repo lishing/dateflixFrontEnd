@@ -23,12 +23,6 @@ const movies = [
 
 class App extends React.Component {
 
-	state = {
-		fields: {},
-	}
-	onSubmit = (fields) => {
-		this.setState({fields})
-	} 
 	render() {
 		return (
 			<div>
@@ -36,10 +30,8 @@ class App extends React.Component {
 				{/* <MovieList moviesProps={movies}/> */}
 				{/* <MovieInfo/> */}
 				<CreateProfile/>
-				{/* <LogIn onSubmit ={fields => this.onSubmit(fields)}/> */}
-			{/* <p>{
-			JSON.stringify(this.state.fields, null, 2)}
-			</p> */}
+				{/* <LogIn/> */}
+
 			</div>
 		)
 	}
